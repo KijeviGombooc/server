@@ -55,4 +55,10 @@ public class Item {
     public void setChecked(Boolean checked) {
         this.checked = checked;
     }
+
+    @Override
+    public String toString() {
+        return "Item [id=" + id + ", name=" + name + ", amount=" + amount + ", unitOfMeasurement=" + unitOfMeasurement
+                + ", checked=" + checked + "]";
+    }
 }
